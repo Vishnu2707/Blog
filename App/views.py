@@ -15,3 +15,5 @@ class DetailView(generic.DetailView):
 
 
 
+
+
