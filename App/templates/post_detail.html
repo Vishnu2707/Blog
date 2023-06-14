@@ -14,7 +14,10 @@
         </div>
         <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
         <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
-        <p class="card-text ">{{ object.content | safe }}</p>
+        <!-- {% autoescape off %}
+          {{ object.content }}
+        {% endautoescape %} -->
+        <p class="card-text ">{{ object.content | safe | linebreaksbr }}</p>
       </div>
     </div>
     {% block sidebar %} {% include 'sidebar.html' %} {% endblock sidebar %}
