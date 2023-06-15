@@ -16,17 +16,18 @@ git add -A
 git commit -m "commit name"
 
 git push origin new-branch
---------------------------------------------------------------------------------------------------------
-Setup
-Update the System
 
-(To check the branch you can use "git branch")
+Hosting the Django website on EC2 - AWS
+----------------------------------------
+Update the System
 
 sudo apt-get update
 To get this repository, run the following command inside your git enabled terminal
 
 git clone https://github.com/Vishnu2707/Blog.git
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
+
+(To check the branch you can use "git branch")
 
 Download django usig pip
 
