@@ -54,3 +54,14 @@ Once the server is hosted, head over to http://127.0.0.1:8000/Blog for the App.
 Once Hosted on the EC2 instance in AWS, you will not be able to see the app using the link http://127.0.0.1:8000 since the port 8000 is not allowed, so make sure to edit the security groups of the instance and add the port 8000. Now you will need to use http://16.16.182.77:8000/ to view the BLOG APP - SCRIBBLE!
 
 Note - AWS EC2 instance is only free for 12 months!
+
+Django web app hosting on Pythonanywhere
+-----------------------------------------
+
+Pythonanywhere is totally free for beginners, one can host there web app live on the domain.
+
+To view this app please use the below link.
+
+http://blogv.pythonanywhere.com/
+
+Cheers then, Happy Blogging!!
