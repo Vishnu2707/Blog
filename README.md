@@ -3,6 +3,8 @@
 # Blog
 A web app created using Django for blogging.
 
+APP URL - http://blogv.pythonanywhere.com/
+
 Django Admin page handles the post creation and deletion part.
 
 To make a commit with all the modifications to Git from VSCode
